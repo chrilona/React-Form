@@ -9,7 +9,10 @@ import User from "./User";
 const Registration = ()=> {
 const [password,setPassword]= useState("");
 const [email,setEmail]= useState("");
+const [changeColor,setChangeColor]= useState("");
+
 const handleSubmit = ()=>{
+  setChangeColor(!changeColor);
   const data = {
     email:email,
     password:password,
@@ -30,13 +33,14 @@ const handleSubmit = ()=>{
          
             <label for="email">Email</label>
             <br/>
-            <input type="text" id="email" placeholder="Your email" name="email" required></input>
+            {/* <input type="text" id="email" placeholder="Your email" name="email" required></input> */}
+            <input type="email" id="email" name="email" placeholder="name@domain.com"  value={email} onChange={(e)=>{setEmail(e.target.value)}} required ></input> <br></br>
             <br></br>
             <label for="password">Password</label>
 
             <br/>
-            <input type="text" id="password" placeholder="Atleast 8 characters" name="password" required
-            onChange={(e)=>{setPassword(e.target.value)}}></input>
+            <input type="password" id="password" placeholder="Atleast 8 characters" name="password" value = {password}
+            onChange={(e)=>{setPassword(e.target.value)}}required></input>
           
         </div>
     
@@ -48,7 +52,7 @@ const handleSubmit = ()=>{
           <div className="pass">
             <a href="forgot password">Forgot password?</a>
           </div> 
-          <button type="submit" className="btn" onClick="this.style.backgroundColor">button</button>
+          <button  onclick={handleSubmit}className={changecolor ? "change": "btn"} type="submit">{changecolor ? "Submit": "Submit"}t</button>
         </div>
         <div className="or">
           <p>-------------------Or--------------------</p>
