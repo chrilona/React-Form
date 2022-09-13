@@ -1,0 +1,186 @@
+
+
+*{
+  margin: 10px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'poppins','sans-serif';
+
+}
+body{
+  display: flex;
+  height: 600px;
+  width: 600px;
+  overflow: hidden;
+  justify-content: center;
+  align-content: center;
+  /* padding: 10px; */
+  margin: 40 0 0 450px;
+  margin-left: 26%;
+  margin-top: 6%;
+  /* padding-left: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  padding-top: 50px; */
+  background-color: #fee19d;
+
+}
+.main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  margin: auto;
+  margin: 0px 0px 0px 0px;
+
+  padding-left: 80px;
+  padding-bottom: 55px;
+  padding-right: 55px;
+  padding-top: 55px;
+  margin-left: 20%;
+  align-items: center;
+  background-color:#fee19d;
+  border-radius: 4%;
+}
+.image img
+{
+  height: 350px;
+  width: 450px;
+  margin-left: -90%;
+  margin-top: 10%;
+}
+
+.form{
+  
+  width: 830px;
+  height: 110%;
+  border-radius: 50px;
+  /* margin-left: -5%;FD  */
+  overflow: hidden;
+  /* display: flex; */
+  /* margin: auto; */
+  /* margin: 0px 0px 0px 40px; */
+  padding-left: 100px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  align-items: center;
+  background-color: white;
+
+}
+.form h6{
+  /* color: rgb(108, 177, 196); */
+  margin-left: 0px;
+}
+.form h5
+{
+  font-size: 20px;
+  margin-left: -3%;
+}
+.form h6 {
+  /* color: rgb(108, 177, 196); */
+  margin-left: 50%;
+  margin-top: -5%;
+}
+.form h3{
+  /* color: rgb(108, 177, 196); */
+  margin-left: 0%;
+  font-style:normal;
+ 
+}
+.header3
+{
+  margin-top: 5%;
+  margin-left: -4%;
+  font-size: 30px;
+}
+.form1
+{
+  margin-top: 6%;
+  margin-left: -3%;
+}
+.or
+{
+  margin-left: -4%;
+}
+.log
+{
+  margin-left: 0%;
+  margin-top: -5.5%;
+  font-size: 13px;
+}
+.checkbox
+{
+  margin-left: -1%;
+}
+.form h6 
+{
+  margin-left: 70%;
+  margin-top: -5%;
+}
+.formm{
+  margin-left: -10px;
+}
+.checkbox input{
+  margin-top:0px; 
+  margin-left: -12px;
+}
+.checkbox h6{
+  margin-left:2%; 
+  margin-top:-4%;
+  font-style: normal;
+}
+.pass
+{
+  margin-left: 30%;
+  margin-top: -4%;
+  font-size: 13px;
+  font-style: normal;
+}
+#email
+{
+  padding: 1%;
+  width: 50%;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+#password
+{
+  width: 50%;
+  padding: 1%;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+/* .checkbox button{
+  margin-left: -1.5%; */
+  /* padding-left: 202px; */
+  /* text-align: center; */
+  /* text-align: right;
+  background-color: rgb(108, 177, 196);
+
+} */
+.btn
+{
+  padding: 1.5%;
+  background-color: #469DA4;
+  width: 50%;
+  margin-left: -1.5%;
+  margin-top: 4%;
+  border: none;
+}
+.facebook
+{
+  margin-left: 5%;
+  margin-top: -2.5%;
+}
+.google
+{
+  margin-left: 13%;
+  margin-top: -6.8%;
+}
+.insta
+{
+  margin-left: 20%;
+  margin-top: -6.8%;
+
+} 
